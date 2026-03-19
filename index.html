@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Relicfall</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Relicfall</h1>
+    <nav>
+        <a href="#presentation">Présentation</a>
+        <a href="#images">Images</a>
+        <a href="#download">Télécharger</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Découvrez notre jeu</h2>
+    <p>Un jeu incroyable vous attend</p>
+    <a class="download-btn" onclick="downloadLatest()">Télécharger le jeu</a>
+</section>
+
+<section id="presentation">
+    <h2>Présentation</h2>
+    <p>
+        Notre histoire prend place dans un village lointain reconnu, reconnu pour la paix, la joie et la cohésion qui y règne; jadis protégé par de puissantes reliques capables de repousser toute attaque de monstres.
+        Mais, un jour, ce village connut le pire des sorts, la disparition des reliques, ce qui entraîna la chute du village, sombrant par la suite sous les assauts incessants des créatures, mettant brutalement fin à une ère de paix.
+        Peu de temps après, des traces des reliques disparues furent découvertes dans un mystérieux donjon apparu récemment. De nombreux aventuriers s’y sont engouffrés, espérant le conquérir et ramener les reliques perdues mais aucun n’en est jamais revenu victorieux. Jusqu’à votre apparition dans cette contrée lointaine.
+    </p>
+</section>
+
+<section id="images">
+    <h2>Images du jeu</h2>
+
+    <div class="gallery">
+        <img src="image1.png" alt="image du jeu">
+        <img src="image2.png" alt="image du jeu">
+    </div>
+
+</section>
+
+<section id="download">
+    <h2>Télécharger</h2>
+    <p>Choisissez une version :</p>
+
+    <select id="version-select">
+        <option value="Relicfall-main.zip">Version 1.0</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="downloadGame()">Télécharger</button>
+
+</section>
+
+<footer>
+    <p>© 2026 Relicfall</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
