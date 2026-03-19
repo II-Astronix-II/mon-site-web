@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    background-color: #121212;
+    background-image: linear-gradient(rgba(18, 18, 18, 0.85), rgba(18, 18, 18, 0.85)), url("mur.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background: rgba(31, 31, 31, 0.98);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin-left: 50px;
+}
+
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.download-btn {
+    background: #00c853;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px;
+    background: rgba(48, 48, 48, 0.35);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background: #1f1f1f;
+    color: white;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background: #00c853;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(42, 42, 42, 0.98);
+}
